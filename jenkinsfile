@@ -1,5 +1,3 @@
-Sample Jenkinsfile:
-```
 pipeline {
     agent { label 'srv1-zazi' }
 
@@ -52,4 +50,4 @@ pipeline {
         
         
     }
-}```
+}
