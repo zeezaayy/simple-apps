@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'srv2-zazi' }
+    agent { label 'srv1-zazi' }
 
     stages {
         stage('Pull SCM') {
