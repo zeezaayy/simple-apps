@@ -40,11 +40,11 @@ pipeline {
             }
         }
         
-        stage('Approval') {
-                    steps {
-                       input message: 'Yakin mau deploy ke production?', ok: 'yoi!'
-                    }
-                }
+         stage('Approval') {
+            steps {
+                input message: 'Yakin Deploy production? Cek dulu gan', ok:'Deploy bossku!'
+            }
+        }
 
         stage('Deploy') {
             steps {
